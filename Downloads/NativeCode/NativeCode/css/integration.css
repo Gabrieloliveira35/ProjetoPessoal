@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: rgba(40, 167, 241, 0.822);
+    padding: 12px 40px;
+    box-shadow: 1px 2px 4px  #c0c0c0;
+   
+
+}
+.header span{
+    color: red;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+   
+}
+.header h2{
+    color: #ffffff;
+    font: 2em;
+    text-align: center;
+}
+.perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+
+}
+.perfil i{
+    position: relative;
+    color: #fff;
+}
+.list-actions {
+    display: none;
+}
+.list-actions{
+    position: absolute;
+    top:  11%; 
+    right: 2.7%;
+    background-color: initial;
+   
+   
+   
+}
+.list-actions li{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    border-radius: 38px;
+    width: 38px;
+    height: 38px;
+    margin-top: 15px;
+    background-color: red;
+  
+}
+.textPar {
+    color: #000;
+    position: absolute;
+    right: 45px;
+    margin-top: 25px;    
+    display: none;
+   
+}
+.list-actions li i{
+      position: relative;
+      top: 8px;
+
+     
+}
+@media (max-width: 400px){
+    .perfil {
+       
+        position: fixed;
+        top: 20px;
+        right: 20px;
+       
+    }
+
+    .list-actions{
+        position: absolute;
+        top:  11.5%; 
+        right: 10%;
+    }
+}
